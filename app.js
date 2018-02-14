@@ -29,3 +29,8 @@ app.get("/getPost",getPost);
 function getPost(request, response){
     response.send(posts)
 }
+
+
+  // /home/vSkin/vSkinBackEnd
+
+app.use("/images", express.static("images"));
